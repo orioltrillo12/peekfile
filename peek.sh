@@ -1,9 +1,8 @@
 cd ~/alg/dataset1/
 
 file="$1"
+number="$2"
 
-head -n3 "$file"
+head -n "$number" "$file"
 echo "..."
-tail -n3 "$file"
-
-
+tail -n "$number" "$file"
